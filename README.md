@@ -146,7 +146,7 @@ This project is licensed under **Creative Commons Attribution-NonCommercial-Shar
 - **Non-commercial:** No commercial use without permission
 - **Share-alike:** Distribute modifications under same license
 
-Full license: [LICENSE](LICENSE) or https://creativecommons.org/licenses/by-nc-sa/4.0/
+Full license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 ---
 
