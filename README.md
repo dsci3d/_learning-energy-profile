@@ -64,18 +64,19 @@ python auswertung_orchestrator.py --csv your_responses.csv --workflow full
 
 ```
 learning-energy-profile/
-├── auswertung.py                              # Core: Questionnaire analysis + profile calculation
-├── auswertung_orchestrator.py                 # Workflow manager (recommended entry point)
-├── auswertung_visualize.py                    # Radar charts, bar charts, HTML report
-├── auswertung_test.py                         # 21 unit tests (scoring logic)
-├── auswertung_validation.py                   # Integration validation
-├── requirements.txt                           # Python dependencies
 ├── LICENSE                                    # CC BY-NC-SA 4.0
 ├── README.md                                  # This file
+├── requirements.txt                           # Python dependencies
 └── examples/                                  # Example data
     ├── questionnaire_template.csv             # Blank questionnaire template
     ├── questionnaire_answered_example2.csv    # Example: High social energy profile
     └── questionnaire_answered_example1.csv    # Example: High focus, low sensory threshold
+└── lernprofil/                                # Python model
+    ├── auswertung.py                          # Core: Questionnaire analysis + profile calculation
+    ├── auswertung_orchestrator.py             # Workflow manager (recommended entry point)
+    ├── auswertung_visualize.py                # Radar charts, bar charts, HTML report
+    ├── auswertung_test.py                     # 21 unit tests (scoring logic)
+    ├── auswertung_validation.py               # Integration validation
 ```
 
 ---
