@@ -4,12 +4,18 @@
 # Core functionality (auswertung.py)
 # - Standard library only, no external dependencies
 
+# Usage
+# pip install -r requirements.txt
+
 # Visualization (auswertung_visualize.py)
-matplotlib>=3.5.0
-numpy>=1.21.0
+matplotlib
+numpy
 
 # Testing (auswertung_test.py, auswertung_validation.py)
 # - Standard library only (unittest)
 
 # Optional: For development
 # pytest>=7.0.0  # Alternative test runner
+
+# Für VS Code Notebooks
+ipykernel
