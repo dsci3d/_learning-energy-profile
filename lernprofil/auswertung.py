@@ -777,7 +777,7 @@ def main(argv: Optional[List[str]] = None) -> None:
 
         # Ausgabeordner erzeugen: Auswertung/YYYY-MM-DD_HH-MM-SS/
         timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-        output_dir = Path("Auswertung") / timestamp
+        output_dir = Path("auswertung") / timestamp
         output_dir.mkdir(parents=True, exist_ok=True)
 
         # Wenn --output gesetzt wurde → Dateiname übernehmen, aber im neuen Ordner speichern
