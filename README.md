@@ -3,27 +3,37 @@
 **A research tool for optimizing personal study architectures**
 
 Developed by **Peter Kocmann**
-- Freie Universität Berlin,
+- Freie Universität Berlin (Continuing Education),
 - Charité – Universitätsmedizin Berlin,
 - Technische Universität Berlin,
 - University of Potsdam
 
-as part of the "Efficient Learning with AI" workshop
+---
+
+⚠️ Scientific Status & Research Code Notice
+This repository contains **research code**, developed for teaching and exploratory purposes in higher education. 
+- **Transparency:** All calculation steps are fully documented and traceable.
+- **Not Diagnostic:** This is not a replacement for professional psychological diagnostics.
+- **Formative Use:** Intended for personal experimentation and reflection.
+- **Work in Progress:** Reliability and validity studies are ongoing (see [Scientific Changelog](#scientific-changelog)).
+- **Production Use:** For use in commercial or production environments, independent validation is recommended.
 
 ---
 
 ## What is the Learning Energy Profile?
 
-Learning is an energetic system. Success depends not only on intelligence but on the match between person and study architecture. This tool analyzes your individual **Learning Energy Profile** across 6 evidence-based dimensions:
+Learning is an energetic system. Success depends not only on cognitive ability but on the **Person-Environment Fit**. 
+This tool analyzes your individual **Learning Energy Profile** across 6 evidence-based dimensions:
 
-1. **Attention Architecture** – How robust is your focus?
-2. **Sensory Processing** – How sensitive are you to stimuli?
-3. **Social Energetics** – Do you learn better alone or in groups?
-4. **Executive Functions** – How strong is your need for structure?
-5. **Motivation Architecture** – What drives you?
-6. **Autonomic Regulation** – How well do you manage stress?
+1. **Attention Architecture** – Focus stability and distractibility (Vigilance & cognitive capacity; Posner & Petersen, 1990).
+2. **Sensory Processing** – Sensitivity to environmental stimuli (Sensory Processing Sensitivity; Aron & Aron, 1997).
+3. **Social Energetics** – Energy gain/loss in social contexts (Big Five Extraversion; Costa & McCrae, 1992).
+4. **Executive Functions** – Need for structure, working memory, and cognitive flexibility (Miyake et al., 2000).
+5. **Motivation Architecture** – Self-Determination Theory (Deci & Ryan, 2000) and approach/avoidance orientation.
+6. **Autonomic Regulation** – Stress management and cortisol regulation patterns (Allostatic Load; McEwen, 1998; Lazarus & Folkman, 1984).
 
-**The goal:** Instead of generic "learning style" models, you get an individual profile showing how you learn optimally – based on stress physiology, attention research, and polyvagal theory.
+**The Goal:** 
+Moving beyond the debunked "learning styles" myth, we focus on study conditions that release cognitive capacity by aligning with your physiological and psychological needs.
 
 ---
 
@@ -39,9 +49,9 @@ pip install -r requirements.txt
 
 ### 2. Complete the Questionnaire
 
-The questionnaire (88 items, Likert scale 1-5) is available at:
-- **Interactive web version:** (coming soon)
-- CSV template in repo: `questionnaire_template.csv`
+The questionnaire consists of **88 items** (Likert scale 1-5).
+- Use the `questionnaire_template.csv` in the `examples/` folder.
+- Run the analyzer to generate your profile.
 
 ### 3. Calculate Your Profile
 
@@ -108,33 +118,6 @@ The **orchestrator** provides 4 predefined workflows:
 ```bash
 python auswertung_orchestrator.py --csv questionnaire_answered.csv --workflow full --output-dir results/
 ```
-
----
-
-## Scientific Foundation
-
-The Learning Energy Profile is based on:
-- **Stress physiology** (Allostatic Load, cortisol regulation)
-- **Attention research** (Vigilance, cognitive capacity)
-- **Polyvagal Theory** (Porges) – Autonomic regulation and safety signals
-- **Motivation psychology** (Deci & Ryan: Self-Determination Theory)
-- **Executive functions** (Working memory, inhibition, cognitive flexibility)
-
-**Important distinction:** This is not a "learning styles" test (visual/auditory/kinesthetic), but an **energetic architecture model** of your learning conditions.
-
----
-
-## Research Code Notice
-
-⚠️ **This is research code, not production-ready software.**
-
-- Developed for teaching and research purposes in higher education contexts
-- Fully transparent and traceable (all calculation steps documented)
-- Not a replacement for professional psychological diagnostics
-- Validation ongoing in workshop contexts
-
-**For production use:** Own validation recommended. Questions: kocmann@zedat.fu-berlin.de
-
 ---
 
 ## Language Note
@@ -192,7 +175,7 @@ A1,4
 A2,3
 ...
 ```
-- **88 items** (A1-A88)
+- **88 items** (e.g., A1, S1, R1, ...)
 - **Likert scale 1-5** (1 = does not apply, 5 = fully applies)
 - Additional columns (e.g., `item_text`, `dimension`) are ignored
 
@@ -228,6 +211,30 @@ python auswertung_orchestrator.py --workflow validate
 
 ---
 
+## Scientific Changelog
+
+### [0.3.0] - 2025-12-18
+
+**Status:** Research code – Actively developed in workshop context
+
+**Refinement of Theoretical Foundation (Dimension 6)**
+
+- **Change:** Shifted focus from specific Polyvagal Theory claims to broader frameworks of **Autonomic Regulation** and **Stress Physiology** (Lazarus & Folkman, 1984; McEwen's Allostatic Load, 1998).
+- **Reasoning:** Acknowledging the ongoing scientific debate regarding the neuroanatomical premises of the Polyvagal Theory (Grossman, 2023; Neuhuber, 2022). To maintain high evidence standards, LEP now prioritizes HRV-based research and transactional stress models.
+- **Evidence Update:** Integrated findings on "Metacognitive Laziness" (Fan et al., 2024) regarding AI-human interaction.
+
+---
+
+## Key References
+
+- **Fan, Y., et al. (2024).** Beware of metacognitive laziness: Effects of generative AI on learning. _British Journal of Educational Technology_.
+- **Grossman, P. (2023).** Fundamental challenges and likely refutations of the five basic premises of the polyvagal theory. _Biological Psychology_.
+- **Lazarus, R. S., & Folkman, S. (1984).** _Stress, appraisal, and coping_. Springer.
+- **Pashler, H., et al. (2008).** Learning styles: Concepts and evidence. _Psychological Science in the Public Interest_.
+- **McEwen, B. S. (1998).** Protective and damaging effects of stress mediators. _NEJM_.
+
+---
+
 ## Contributing & Contact
 
 **Developed by:** Peter Kocmann  
@@ -256,10 +263,3 @@ Kocmann, P. (2025). Learning Energy Profile: An evidence-based tool for optimizi
 personal study architectures. GitHub Repository. 
 https://github.com/dsci3d/learning-energy-profile
 ```
-
----
-
-**Version:** 0.2.1  
-**Last updated:** November 2025
-**Status:** Research code – Actively developed in workshop context
-
