@@ -40,6 +40,9 @@ This tool analyzes your individual **Learning Energy Profile** across 6 research
 **The Goal:** 
 Moving beyond the debunked "learning styles" myth, we focus on study conditions that release cognitive capacity by aligning with your physiological and psychological needs.
 
+**Self-report limitation:** 
+The questionnaire measures perceived capacities and preferences, not objective cognitive performance. Discrepancies between self-assessment and actual performance are possible and expected.
+
 **Important:** 
 Outputs are testable hypotheses for personal experimentation, not predictions of learning outcomes.
 
