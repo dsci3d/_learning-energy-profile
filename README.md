@@ -1,6 +1,6 @@
 # Learning Energy Profile
 
-**A research tool for optimizing personal study architectures**
+**A research tool for exploring personal study architectures**
 
 Developed by **Peter Kocmann**
 - Freie Universität Berlin (Continuing Education),
@@ -16,24 +16,32 @@ This repository contains **research code**, developed for teaching and explorato
 - **Not Diagnostic:** This is not a replacement for professional psychological diagnostics.
 - **Formative Use:** Intended for personal experimentation and reflection.
 - **Work in Progress:** Reliability and validity studies are ongoing (see [Scientific Changelog](#scientific-changelog)).
-- **Production Use:** For use in commercial or production environments, independent validation is recommended.
+- **Institutional Use:** For high-stakes or institutional deployment, independent validation is recommended.
+- **Commercial Use:** Requires explicit permission (see License).
 
 ---
 
 ## What is the Learning Energy Profile?
 
 Learning is an energetic system. Success depends not only on cognitive ability but on the **Person-Environment Fit**. 
-This tool analyzes your individual **Learning Energy Profile** across 6 evidence-based dimensions:
+This tool analyzes your individual **Learning Energy Profile** across 6 research-informed dimensions (self-report proxies):
 
 1. **Attention Architecture** – Focus stability and distractibility (Vigilance & cognitive capacity; Posner & Petersen, 1990).
 2. **Sensory Processing** – Sensitivity to environmental stimuli (Sensory Processing Sensitivity; Aron & Aron, 1997).
-3. **Social Energetics** – Energy gain/loss in social contexts (Big Five Extraversion; Costa & McCrae, 1992).
-4. **Executive Functions** – Need for structure, working memory, and cognitive flexibility (Miyake et al., 2000).
+3. **Social Energetics** — Energy gain/loss in social contexts (Extraversion proxy; Costa & McCrae, 1992).
+4. **Executive Functions** — Perceived need for structure and cognitive flexibility (self-report indicator; cf. Miyake et al., 2000).
 5. **Motivation Architecture** – Self-Determination Theory (Deci & Ryan, 2000) and approach/avoidance orientation.
-6. **Autonomic Regulation** – Stress management and cortisol regulation patterns (Allostatic Load; McEwen, 1998; Lazarus & Folkman, 1984).
+6. **Stress Regulation** — Stress appraisal, coping, and recovery indicators (Lazarus & Folkman, 1984; McEwen, 1998).
+
+**Additional Indices (non-core):**
+- **Chronotype** — Morning/evening tendency (supplementary, not a core dimension)
+- **Motivation Avoidance** — Avoidance orientation subindex (exposed separately in JSON output)
 
 **The Goal:** 
 Moving beyond the debunked "learning styles" myth, we focus on study conditions that release cognitive capacity by aligning with your physiological and psychological needs.
+
+**Important:** 
+Outputs are testable hypotheses for personal experimentation, not predictions of learning outcomes.
 
 ---
 
