@@ -75,15 +75,15 @@ M15,Motivationsarchitektur,Zielorientierung_reversed,TRUE,TRUE,"Auch wenn ich da
 M16,Motivationsarchitektur,Extrinsische_Abhängigkeit,TRUE,TRUE,Ohne Belohnungen oder Anreize von außen würde ich deutlich weniger lernen.,2
 M17,Motivationsarchitektur,Wenn_Dann_Planung,TRUE,FALSE,"Ich nutze Wenn-Dann-Pläne (zum Beispiel 'Wenn es 14 Uhr ist, dann beginne ich mit Kapitel 3').",5
 M18,Motivationsarchitektur,Commitment_Strategien,TRUE,FALSE,"Ich teile anderen meine Lernziele mit, um mich dadurch zu verpflichten.",3
-R1,Autonome Regulation / Stress & Vigilanz,Subjektives_Stressniveau,TRUE,TRUE,In den letzten Wochen habe ich mich häufig innerlich angespannt gefühlt.,4
-R2,Autonome Regulation / Stress & Vigilanz,Abschalten_Abends,TRUE,TRUE,"Es fällt mir schwer, abends mental abzuschalten und nicht mehr an Lernstoff zu denken.",4
-R3,Autonome Regulation / Stress & Vigilanz,Erschöpfung_nach_Lernen,TRUE,TRUE,Nach längeren Lerneinheiten fühle ich mich eher erschöpft als zufrieden.,3
-R4,Autonome Regulation / Stress & Vigilanz,Stress_durch_Unvorhergesehenes,TRUE,TRUE,Unvorhergesehene Änderungen im Lernplan stressen mich deutlich.,5
-R5,Autonome Regulation / Stress & Vigilanz,Wahrnehmung_körperlicher_Stresszeichen,TRUE,FALSE,"Ich kann körperliche Anzeichen von Stress (zum Beispiel Herzklopfen, flache Atmung) bei mir erkennen.",5
-R6,Autonome Regulation / Stress & Vigilanz,Kurzpausen_Regulation,TRUE,FALSE,"Ich nutze bewusst kleine Pausen, um mein Anspannungsniveau zu regulieren (z. B. Atmung, kurze Bewegung).",5
-R7,Autonome Regulation / Stress & Vigilanz,Abendroutinen_Regeneration,TRUE,FALSE,"Ich habe Routinen, die mir helfen, nach dem Lernen herunterzukommen.",5
-R8,Autonome Regulation / Stress & Vigilanz,Druck_als_Leistungsfaktor,TRUE,FALSE,"Wenn ich unter Druck stehe, lerne ich manchmal effektiver als ohne Druck.",2
-R9,Autonome Regulation / Stress & Vigilanz,Schlaf_in_Stressphasen,TRUE,TRUE,Ich schlafe in Prüfungsphasen schlechter als sonst.,4
-R10,Autonome Regulation / Stress & Vigilanz,Belastungsausgleich,TRUE,FALSE,Nach Tagen mit hoher Belastung plane ich bewusst entlastende Aktivitäten ein.,5
-R11,Autonome Regulation / Stress & Vigilanz,Prioritätensetzung_in_Stress,TRUE,FALSE,"Ich kann in Stressphasen Prioritäten setzen, ohne in Panik zu geraten.",4
-R12,Autonome Regulation / Stress & Vigilanz,Belastungsgrenze_Wahrnehmung,TRUE,FALSE,"Ich spüre frühzeitig, wenn meine Belastungsgrenze erreicht ist, und reagiere darauf.",5
+R1,Autonome Regulation / Stressregulation,Subjektives_Stressniveau,TRUE,TRUE,In den letzten Wochen habe ich mich häufig innerlich angespannt gefühlt.,4
+R2,Autonome Regulation / Stressregulation,Abschalten_Abends,TRUE,TRUE,"Es fällt mir schwer, abends mental abzuschalten und nicht mehr an Lernstoff zu denken.",4
+R3,Autonome Regulation / Stressregulation,Erschöpfung_nach_Lernen,TRUE,TRUE,Nach längeren Lerneinheiten fühle ich mich eher erschöpft als zufrieden.,3
+R4,Autonome Regulation / Stressregulation,Stress_durch_Unvorhergesehenes,TRUE,TRUE,Unvorhergesehene Änderungen im Lernplan stressen mich deutlich.,5
+R5,Autonome Regulation / Stressregulation,Wahrnehmung_körperlicher_Stresszeichen,TRUE,FALSE,"Ich kann körperliche Anzeichen von Stress (zum Beispiel Herzklopfen, flache Atmung) bei mir erkennen.",5
+R6,Autonome Regulation / Stressregulation,Kurzpausen_Regulation,TRUE,FALSE,"Ich nutze bewusst kleine Pausen, um mein Anspannungsniveau zu regulieren (z. B. Atmung, kurze Bewegung).",5
+R7,Autonome Regulation / Stressregulation,Abendroutinen_Regeneration,TRUE,FALSE,"Ich habe Routinen, die mir helfen, nach dem Lernen herunterzukommen.",5
+R8,Autonome Regulation / Stressregulation,Druck_als_Leistungsfaktor,TRUE,FALSE,"Wenn ich unter Druck stehe, lerne ich manchmal effektiver als ohne Druck.",2
+R9,Autonome Regulation / Stressregulation,Schlaf_in_Stressphasen,TRUE,TRUE,Ich schlafe in Prüfungsphasen schlechter als sonst.,4
+R10,Autonome Regulation / Stressregulation,Belastungsausgleich,TRUE,FALSE,Nach Tagen mit hoher Belastung plane ich bewusst entlastende Aktivitäten ein.,5
+R11,Autonome Regulation / Stressregulation,Prioritätensetzung_in_Stress,TRUE,FALSE,"Ich kann in Stressphasen Prioritäten setzen, ohne in Panik zu geraten.",4
+R12,Autonome Regulation / Stressregulation,Belastungsgrenze_Wahrnehmung,TRUE,FALSE,"Ich spüre frühzeitig, wenn meine Belastungsgrenze erreicht ist, und reagiere darauf.",5
