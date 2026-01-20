@@ -11,3 +11,9 @@
 - Pashler, Harold et al. (2008). Learning styles: concepts and evidence. Psychological science in the public interest, 9(3). S. 105-119. https://doi.org/10.1111/j.1539-6053.2009.01038.x
 - Posner, Michael I. & Petersen, Steven E. (1990). The attention system of the human brain. Annual review of neuroscience, 13(1). S. 25-42. https://doi.org/10.1146/annurev.ne.13.030190.000325
 - Ryan, Richard M & Deci, Edward L (2000). Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being. The American psychologist, 55(1). S. 68-78. https://doi.org/10.1037/0003-066x.55.1.68
+
+# LinkedIn
+
+Post 1
+
+[Lerntypen haben ausgedient. Was jetzt?](https://www.linkedin.com/posts/peter-kocmann_opensource-learninganalytics-edtech-activity-7402290620016521216-2q_Q?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFX1Z50BZ2ggsdvzF0jid6ENIzThEer2oz0)
