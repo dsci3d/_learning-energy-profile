@@ -1,0 +1,12 @@
+# Literaturhinweise
+
+- Barrett, Peter et al. (2015). The impact of classroom design on pupils' learning: final results of a holistic, multi-level analysis. Building and environment, 89. S. 118-133. https://doi.org/10.1016/j.buildenv.2015.02.013
+- Böttger, Tobias et al. (2023). Does the brain drain effect really exist? a meta-analysis. Behavioral Sciences, 13(9). S. 751. https://doi.org/10.3390/bs13090751
+- Ghibellini, Romain & Meier, Beat (2025). Interruption, recall and resumption: a meta-analysis of the zeigarnik and ovsiankina effects. Humanities & social sciences communications, 12(1). S. 962-13. https://doi.org/10.1057/s41599-025-05000-w
+- Leroy, Sophie (2009). Why is it so hard to do my work? the challenge of attention residue when switching between work tasks. Organizational behavior and human decision processes, 109(2). S. 168-181. https://doi.org/10.1016/j.obhdp.2009.04.002
+- Leroy, Sophie & Schmidt, Aaron M. (2016). The effect of regulatory focus on attention residue and performance during interruptions. Organizational behavior and human decision processes, 137. S. 218-235. https://doi.org/10.1016/j.obhdp.2016.07.006
+- Leroy, Sophie & Glomb, Theresa M. (2018). Tasks interrupted: how anticipating time pressure on resumption of an interrupted task causes attention residue and low performance on interrupting tasks and how a “ready-to-resume” plan mitigates the effects. Organization science (Providence, R.I.), 29(3). S. 380-397. https://doi.org/10.1287/orsc.2017.1184
+- Parry, Douglas A. (2024). Does the mere presence of a smartphone impact cognitive performance? a meta-analysis of the "brain drain effect". Media psychology, 27(5). S. 737-762. https://doi.org/10.1080/15213269.2023.2286647
+- Ruiz Pardo, Ana C. & Minda, John Paul (2022). Reexamining the “brain drain” effect: a replication of ward et al. (2017). Acta psychologica, 230. S. 103717. https://doi.org/10.1016/j.actpsy.2022.103717
+- Syrek, Christine J. et al. (2017). Zeigarnik's sleepless nights: how unfinished tasks at the end of the week impair employee sleep on the weekend through rumination. Journal of occupational health psychology, 22(2). S. 225-238. https://doi.org/10.1037/ocp0000031
+- Ward, Adrian F. et al. (2017). Brain drain: the mere presence of one’s own smartphone reduces available cognitive capacity. Journal of the Association for Consumer Research, 2(2). S. 140-154. https://doi.org/10.1086/691462
