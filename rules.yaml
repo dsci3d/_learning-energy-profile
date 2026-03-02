@@ -1,6 +1,68 @@
 # Kuratierte Regeln für _learning-energy-profile
-#
-# Schema: siehe _briefer/ONBOARDING.md
-# Diese Datei ist die Single Source of Truth für Regeln.
+# 8 Regeln: Instrument-Integrität, Wissenschaftliche Sorgfalt, Code-Konventionen, Datenformat
 
-rules: []
+rules:
+- rule_id: instrument-konstanten-nicht-veraendern
+  source_path: .claude/CLAUDE.md
+  source_chunk: Instrument-Integrität
+  scope: project
+  priority: must
+  intents:
+  - any
+  text: '**Instrument-Konstanten nicht verändern**: 88 Items, 27 Reverse-Items, 6 Dimensionen, 2 Zusatzindizes. Jede Änderung an Item-Zuordnung, Reverse-Coding oder Scoring-Formel `(mean-1)/4*100` erfordert explizite Freigabe.'
+- rule_id: klassifikationsgrenzen-fix
+  source_path: .claude/CLAUDE.md
+  source_chunk: Instrument-Integrität
+  scope: project
+  priority: must
+  intents:
+  - any
+  text: '**Klassifikationsgrenzen fix**: niedrig < 40, mittel 40–74, hoch >= 75. Keine Anpassung ohne wissenschaftliche Begründung.'
+- rule_id: item-konsistenz-assertions-beibehalten
+  source_path: .claude/CLAUDE.md
+  source_chunk: Instrument-Integrität
+  scope: project
+  priority: should
+  intents:
+  - any
+  text: '**Item-Konsistenz-Assertions beibehalten**: Die bestehenden Assertions in `auswertung.py` (Gesamtzahl Items, Reverse-Items pro Dimension) sind Sicherheitsnetze — nicht entfernen oder abschwächen.'
+- rule_id: prototyp-status-transparent-halten
+  source_path: .claude/CLAUDE.md
+  source_chunk: Wissenschaftliche Sorgfalt
+  scope: project
+  priority: must
+  intents:
+  - any
+  text: '**Prototyp-Status transparent halten**: Keine Formulierungen, die Validierung oder Normierung suggerieren. Das Instrument hat explorativen Charakter — das muss in allen Outputs (Bericht, HTML-Report, README) erkennbar bleiben.'
+- rule_id: keine-diagnostischen-aussagen
+  source_path: .claude/CLAUDE.md
+  source_chunk: Wissenschaftliche Sorgfalt
+  scope: project
+  priority: should
+  intents:
+  - any
+  text: '**Keine diagnostischen Aussagen**: Weder Code noch Textausgaben dürfen klinische Diagnosen, pathologisierende Labels oder Vergleiche mit klinischen Populationen enthalten.'
+- rule_id: deutsche-namensgebung-beibehalten
+  source_path: .claude/CLAUDE.md
+  source_chunk: Code-Konventionen
+  scope: project
+  priority: should
+  intents:
+  - any
+  text: '**Deutsche Namensgebung beibehalten**: Variablen, Docstrings und Kommentare auf Deutsch (bewusste Designentscheidung laut README). Englisch nur für Python-Builtins und Library-Interfaces.'
+- rule_id: ausgabe-struktur-timestamp
+  source_path: .claude/CLAUDE.md
+  source_chunk: Code-Konventionen
+  scope: project
+  priority: should
+  intents:
+  - any
+  text: '**Ausgabe-Struktur**: Timestamp-Unterordner (`YYYY-MM-DD_HH-MM-SS/`) für alle generierten Dateien. Keine flachen Outputs im Projektstamm.'
+- rule_id: csv-input-format-stabil
+  source_path: .claude/CLAUDE.md
+  source_chunk: Datenformat
+  scope: project
+  priority: must
+  intents:
+  - any
+  text: '**CSV-Input-Format stabil**: Spalten `item_code,rating`. Zusätzliche Spalten werden ignoriert, aber die Pflichtfelder dürfen nicht umbenannt werden. Kompatibilität mit `questionnaire_template.csv`.'
