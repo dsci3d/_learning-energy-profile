@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__briefer__get_briefing",
+      "mcp__briefer__search_chunks",
+      "Read(//Users/pk/**)"
+    ]
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash reindex.sh",
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}
