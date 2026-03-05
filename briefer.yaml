@@ -1,0 +1,63 @@
+# Briefer-Konfiguration für _learning-energy-profile
+# Lernenergie-Profil: Fragebogen-Instrument, Auswertung, Forschungsdaten
+#
+# Schema: version 1
+
+version: 1
+
+# -----------------------------------------------------------
+# Dateityp-Erkennung (Reihenfolge: spezifisch -> generisch)
+# -----------------------------------------------------------
+doc_types:
+  - pattern: "(^|/)CLAUDE\\.md$"
+    type: rule_source
+  - pattern: "(^|/)agents/.*\\.md$"
+    type: rule_source
+  - pattern: "(^|/)README\\.md$"
+    type: schema
+  - pattern: "(^|/)systemprompt/"
+    type: config
+  - pattern: "(^|/)references/"
+    type: schema
+  - pattern: "(^|/)examples/"
+    type: other
+  - pattern: "(^|/)auswertung/"
+    type: other
+  - pattern: "(^|/)lernprofil/"
+    type: config
+  - pattern: "(^|/)sandbox/"
+    type: idea
+
+# -----------------------------------------------------------
+# Scope-Erkennung
+# -----------------------------------------------------------
+scopes:
+  - pattern: "^\\.claude/"
+    scope: project
+  - pattern: "^CLAUDE\\.md$"
+    scope: project
+  - pattern: "^README\\.md$"
+    scope: project
+  - pattern: "^systemprompt/"
+    scope: project
+  - pattern: "^lernprofil/"
+    scope: project
+  - pattern: "^references/"
+    scope: project
+
+# -----------------------------------------------------------
+# Index-Parameter
+# -----------------------------------------------------------
+index:
+  extensions: [.md, .qmd, .yaml, .yml]
+  skip_dirs: [.git, .venv, venv, node_modules, __pycache__, renv, _site, media, charts, lernprofil_sessions]
+  max_file_bytes: 10485760
+
+# -----------------------------------------------------------
+# Synonyme
+# -----------------------------------------------------------
+synonyms:
+  Lernenergie: [Learning Energy, Lernmotivation, Engagement]
+  Dimension: [Skala, Scale, Faktor]
+  Reverse-Coding: [Umpolung, Invertierung, Rekodierung]
+  Fragebogen: [Questionnaire, Instrument, Survey]
