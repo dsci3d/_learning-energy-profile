@@ -1,0 +1,38 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Quarto: Render current file",
+      "type": "shell",
+      "command": "quarto render ${file} && open ${fileDirname}/${fileBasenameNoExtension}.html",
+      "group": "build",
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Quarto: Render current file to PDF",
+      "type": "shell",
+      "command": "quarto render ${file} --to pdf && open ${fileDirname}/${fileBasenameNoExtension}.pdf",
+      "group": "build",
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Quarto: Render all QMD to HTML in current directory",
+      "type": "shell",
+      "command": "for f in \"${fileDirname}\"/*.qmd; do quarto render \"$f\"; done",
+      "group": "build",
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    }
+  ]
+}
