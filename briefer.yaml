@@ -21,8 +21,6 @@ doc_types:
     type: schema
   - pattern: "(^|/)examples/"
     type: other
-  - pattern: "(^|/)auswertung/"
-    type: other
   - pattern: "(^|/)lernprofil/"
     type: config
   - pattern: "(^|/)sandbox/"
@@ -50,7 +48,7 @@ scopes:
 # -----------------------------------------------------------
 index:
   extensions: [.md, .qmd, .yaml, .yml]
-  skip_dirs: [.git, .venv, venv, node_modules, __pycache__, renv, _site, media, charts, lernprofil_sessions]
+  skip_dirs: [.git, .venv, venv, node_modules, __pycache__, renv, _site, media, charts, lernprofil_sessions, auswertung]
   max_file_bytes: 10485760
 
 # -----------------------------------------------------------
