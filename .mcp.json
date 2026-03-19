@@ -1,7 +1,7 @@
 {
   "mcpServers": {
     "briefer": {
-      "command": "/Users/pk/.briefer/venv/bin/python3",
+      "command": "/Users/pk/.briefer/.venv/bin/python3",
       "args": ["/Users/pk/.briefer/mcp_server.py"],
       "cwd": "/Users/pk/Documents/A3/_learning-energy-profile",
       "env": {
