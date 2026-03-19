@@ -205,3 +205,9 @@ __marimo__/
 
 # Folder
 sandbox/
+
+# Briefer
+.briefing.md
+
+# Media (local, not versioned)
+**/media/
