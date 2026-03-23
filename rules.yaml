@@ -66,3 +66,12 @@ rules:
   intents:
   - any
   text: '**CSV-Input-Format stabil**: Spalten `item_code,rating`. Zusätzliche Spalten werden ignoriert, aber die Pflichtfelder dürfen nicht umbenannt werden. Kompatibilität mit `questionnaire_template.csv`.'
+
+- rule_id: briefer-sync-pflicht
+  source_path: global/CLAUDE.md
+  source_chunk: Multi-Agenten-Koordination
+  scope: global
+  priority: must
+  intents:
+  - any
+  text: Wenn eine Regel fuer alle KI-Agenten gelten soll (nicht nur Claude), muessen CLAUDE.md UND rules.yaml (Briefer) im selben Commit aktualisiert werden. GPT/Gemini lesen nur den Briefer, nicht CLAUDE.md.
