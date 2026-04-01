@@ -3,6 +3,7 @@
 #
 # Schema: version 1
 
+trust_level: conservative
 version: 1
 
 # -----------------------------------------------------------
