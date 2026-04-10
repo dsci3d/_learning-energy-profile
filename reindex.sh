@@ -1,2 +1,2 @@
 #!/bin/bash
-exec "$HOME/.briefer/reindex.sh"
+exec "${HOME:?HOME muss gesetzt sein}/.briefer/reindex.sh"
